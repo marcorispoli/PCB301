@@ -1,0 +1,101 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[08/05/22]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (File ".\pcb-22-301-0.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (Display_Online_DRC_Results "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector)
+  (MPSSessionName "marco")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\pcb-22-301-0.dsn")
+      (Path "Design Resources" ".\pcb-22-301-0.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\pcb-22-301-0.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 306 0 678"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1299 24 719")
+        (Scroll "116 286")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Z:\RELEASES\PCB\PCB-22-301 (MR -POWER SERVICE -Z190)\ORCAD\PCB-22-301-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CONNETTORI"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1299 24 719")
+        (Scroll "-23 0")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "Z:\RELEASES\PCB\PCB-22-301 (MR -POWER SERVICE -Z190)\ORCAD\PCB-22-301-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CAN_BUS_CH1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1299 24 719")
+        (Scroll "0 120")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Z:\RELEASES\PCB\PCB-22-301 (MR -POWER SERVICE -Z190)\ORCAD\PCB-22-301-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "UPS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1299 24 719")
+        (Scroll "-41 173")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Z:\RELEASES\PCB\PCB-22-301 (MR -POWER SERVICE -Z190)\ORCAD\PCB-22-301-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER_ON"))))
