@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S003 (3838025) [1/28/2020]-[08/29/22]")
+  (SoftwareVersion "17.4-2019 S003 (3838025) [1/28/2020]-[09/05/22]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -67,7 +67,8 @@
     (LAYOUT_Units "0")
     (FALSE)
     (DOCKED "TRUE")
-    (DOCKING_POSITION "59420"))
+    (DOCKING_POSITION "59420")
+    (Display_Online_DRC_Results "FALSE"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\22-301-0.drc"
@@ -82,6 +83,10 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("CONN RCPT 4x2"
+      (FullPartName "CONN RCPT 4x2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (MASSA-VIRT
       (FullPartName "MASSA-VIRT.Normal")
       (LibraryName "D:\UTENTI\00.LIBRERIE ORCAD\OC_CAPTURE\01.PRINCIPALE.OLB")
@@ -90,13 +95,13 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "D:\Work\MT\projects\pcb-22-301 (power service - Z190)\ORCAD\22-301-0.dsn")
+         "d:\work\mt\projects\pcb-22-301 (power service - z190)\orcad\22-301-0.dsn")
       (Path "Design Resources"
-         "D:\Work\MT\projects\pcb-22-301 (power service - Z190)\ORCAD\22-301-0.dsn"
+         "d:\work\mt\projects\pcb-22-301 (power service - z190)\orcad\22-301-0.dsn"
          "SCHEMATIC1")
       (Path "Outputs")
       (Select "Design Resources"
-         "D:\Work\MT\projects\pcb-22-301 (power service - Z190)\ORCAD\22-301-0.dsn"))
+         "d:\work\mt\projects\pcb-22-301 (power service - z190)\orcad\22-301-0.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
