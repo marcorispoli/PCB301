@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[08/29/22]")
+  (SoftwareVersion "17.4-2019 S003 (3838025) [1/28/2020]-[08/29/22]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -48,7 +48,7 @@
     (BOM_Scope "0")
     (BOM_Mode "0")
     (BOM_Report_File
-       "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-301-0\DOC CLIENTE\22-301-0.BOM")
+       "D:\Work\MT\projects\pcb-22-301 (power service - Z190)\ORCAD\22-301-0.bom")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
        "{Item}\t{Quantity}\t{Reference}\t{Descrizione}\t{Value}\t{PN Costruttore}\t{Codice Acquisto Fornitore}\t{Costruttore}\t{PACKAGE}\t{PCB Footprint}\t{NOTE}")
@@ -89,17 +89,21 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\22-301-0.dsn")
-      (Path "Design Resources" ".\22-301-0.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "D:\Work\MT\projects\pcb-22-301 (power service - Z190)\ORCAD\22-301-0.dsn")
+      (Path "Design Resources"
+         "D:\Work\MT\projects\pcb-22-301 (power service - Z190)\ORCAD\22-301-0.dsn"
+         "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\22-301-0.dsn" "SCHEMATIC1" "XRAY_INTERFACE"))
+      (Select "Design Resources"
+         "D:\Work\MT\projects\pcb-22-301 (power service - Z190)\ORCAD\22-301-0.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 0 0 0 200 0 555"))
       (Tab 0)))
-  (MPSSessionName "marco")
+  (MPSSessionName "lanfranco")
   (ISPCBBASICLICENSE "false")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
