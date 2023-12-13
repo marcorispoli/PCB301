@@ -1,0 +1,5 @@
+Bisogna sistemare le strisciate di SOlder sulla parte di potenza
+Il Dissipatore del Diodo di unione UPS ha un pin di fissaggio
+che va su piazzola sulla quale va aperto il solder
+
+Ci sono dei vias che non hanno un piano di massa dalla parte Bottom
