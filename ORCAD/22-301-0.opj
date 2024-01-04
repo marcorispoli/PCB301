@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[12/13/23]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[01/04/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -39,7 +39,7 @@
     (Open_BOM_in_Excel "TRUE")
     (BOM_View_Output "FALSE")
     (DOCKED "TRUE")
-    (DOCKING_POSITION "59423")
+    (DOCKING_POSITION "59420")
     (Display_Online_DRC_Results "FALSE")
     (DRC_Scope "0")
     (DRC_Action "0")
@@ -108,10 +108,14 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\22-301-0.dsn")
-      (Path "Design Resources" ".\22-301-0.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-301\orcad\22-301-0.dsn")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-301\orcad\22-301-0.dsn"
+         "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\22-301-0.dsn" "SCHEMATIC1" "uC"))
+      (Select "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-301\orcad\22-301-0.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -121,14 +125,47 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1845 24 929")
-        (Scroll "-296 -7")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1639 24 929")
+        (Scroll "-193 -7")
         (Zoom "104")
         (Occurrence "/"))
       (Path
          "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-301\ORCAD\22-301-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "uC")))
+      (Page "uC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1639 24 929")
+        (Scroll "-193 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-301\ORCAD\22-301-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "GENERATOR_INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1639 24 929")
+        (Scroll "-193 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-301\ORCAD\22-301-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER_ON"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1639 24 929")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-301\ORCAD\22-301-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "UPS")))
   (ISPCBBASICLICENSE "false")
   (MPSSessionName "marco")
   (Folder "PSpice Resources"
