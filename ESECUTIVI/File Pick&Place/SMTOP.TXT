@@ -1,11 +1,11 @@
-********************************************************************
-*                                                                  *
-* Surface Mount Top Report                                         *
-*                                                                  *
-* D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-301-0\22-301-0.MAX  *
-* Tue Sep 20 17:06:48 2022                                         *
-*                                                                  *
-********************************************************************
+**********************************************************************************************
+*                                                                                            *
+* Surface Mount Top Report                                                                   *
+*                                                                                            *
+* D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-301-0 (SCHEDA SERVIZI 2_02_2024\22-301-0.MAX  *
+* Fri Feb 02 15:26:28 2024                                                                   *
+*                                                                                            *
+**********************************************************************************************
 
  REF DES    VALUE            PACKAGE          FOOTPRINT                      X INSERT   Y INSERT   ROTATION
 ------------------------------------------------------------------------------------------------------------
@@ -35,12 +35,6 @@ C20        100nF            C                SMD0603                         139
 C21        68pF             C                SMD0603                         136.53 mm  193.04 mm 0       
 C22        68pF             C                SMD0603                         142.88 mm  193.04 mm 180     
 C23        68pF             C                SMD0603                         145.42 mm  192.41 mm 270     
-C24        100nF            C                SMD0603                         132.08 mm  192.41 mm 90      
-C25        100nF            C                SMD0603                         169.55 mm  175.90 mm 270     
-C26        68pF             C                SMD0603                         167.01 mm  193.04 mm 0       
-C27        68pF             C                SMD0603                         173.36 mm  193.04 mm 180     
-C28        68pF             C                SMD0603                         175.90 mm  192.41 mm 270     
-C29        100nF            C                SMD0603                         164.47 mm  192.41 mm 90      
 C30        100nF            C                SMD0603                         81.92 mm   200.03 mm 270     
 C31        100nF            C                SMD0603                         62.23 mm   165.10 mm 270     
 C32        100nF            C                SMD0603                         81.92 mm   184.79 mm 270     
@@ -180,11 +174,6 @@ FR3        300mA            SMD030F-2_1      SMD030F_TYCO                    143
 FR4        300mA            SMD030F-2_1      SMD030F_TYCO                    106.05 mm  153.67 mm 270     
 J8         9-338069-0       HEADER_10X2/SM   TYCO-9-338069-0                 27.94 mm   193.68 mm 0       
 L1         DLW32SH101XF2L   CHOKE_DLW32SH1.. DLW32S_MURATA                   139.70 mm  191.77 mm 90      
-L2         BLM18BD102       L_1              SMD0603                         133.99 mm  192.41 mm 270     
-L3         BLM18BD102       L_1              SMD0603                         144.78 mm  201.93 mm 90      
-L4         DLW32SH101XF2L   CHOKE_DLW32SH1.. DLW32S_MURATA                   170.18 mm  191.77 mm 90      
-L5         BLM18BD102       L_1              SMD0603                         162.56 mm  192.41 mm 270     
-L6         BLM18BD102       L_1              SMD0603                         174.63 mm  201.93 mm 90      
 L7         BLM18BD102       L_1              SMD0603                         84.46 mm   160.66 mm 0       
 L8         BLM18BD102       L_1              SMD0603                         82.55 mm   193.04 mm 0       
 L9         BLM18BD102       L_1              SMD0603                         82.55 mm   195.58 mm 0       
@@ -248,13 +237,6 @@ R28        470R             R                SMD0603                         145
 R29        60R              R                SMD0603                         136.53 mm  191.14 mm 180     
 R30        60R              R                SMD0603                         142.88 mm  191.14 mm 0       
 R31        470R             R                SMD0603                         145.42 mm  179.07 mm 270     
-R32        33R              R                SMD0603                         165.74 mm  184.15 mm 90      
-R33        120R             R                SMD0603                         173.99 mm  175.90 mm 270     
-R34        470R             R                SMD0603                         172.09 mm  175.90 mm 270     
-R35        470R             R                SMD0603                         175.90 mm  175.90 mm 270     
-R36        60R              R                SMD0603                         167.01 mm  191.14 mm 180     
-R37        60R              R                SMD0603                         173.36 mm  191.14 mm 0       
-R38        470R             R                SMD0603                         175.90 mm  179.07 mm 270     
 R39        330R             R                SMD1206                         89.54 mm   194.95 mm 180     
 R40        330R             R                SMD0603                         69.85 mm   165.10 mm 180     
 R41        330R             R                SMD1206                         58.42 mm   165.10 mm 180     
@@ -411,10 +393,6 @@ TVS19      SMBJ5A           SMBJ_2           SMB-12                          134
 TVS20      SMBJ5A           SMBJ_2           SMB-12                          144.78 mm  187.96 mm 0       
 TVS21      SMBJ5A           SMBJ_2           SMB-12                          134.62 mm  196.22 mm 180     
 TVS22      SMBJ5A           SMBJ_2           SMB-12                          144.15 mm  196.22 mm 0       
-TVS23      SMBJ5A           SMBJ_2           SMB-12                          165.10 mm  187.96 mm 180     
-TVS24      SMBJ5A           SMBJ_2           SMB-12                          175.26 mm  187.96 mm 0       
-TVS25      SMBJ5A           SMBJ_2           SMB-12                          164.47 mm  196.22 mm 180     
-TVS26      SMBJ5A           SMBJ_2           SMB-12                          173.99 mm  196.22 mm 0       
 TVS27      SMBJ5A           SMBJ_2           SMB-12                          87.00 mm   198.76 mm 180     
 TVS28      SMBJ5A           SMBJ_2           SMB-12                          87.00 mm   163.83 mm 180     
 TVS29      SMBJ5A           SMBJ_2           SMB-12                          59.06 mm   168.91 mm 0       
@@ -474,7 +452,6 @@ U10        TCMT1103         TCMT1101         SSOP4                           13.
 U11        TCMT1103         TCMT1101         SSOP4                           35.56 mm   168.28 mm 180     
 U12        SN74LVC1G00DRLR  SN74LVC1G00DBVR  SOT-5X3                         17.78 mm   141.61 mm 90      
 U13        TJA1050T         TJA1050          SO8                             139.70 mm  181.68 mm 0       
-U14        TJA1050T         TJA1050          SO8                             170.18 mm  181.68 mm 0       
 U15        TCMT1103         TCMT1101         SSOP4                           80.01 mm   199.39 mm 90      
 U16        TCMT1103         TCMT1101         SSOP4                           73.66 mm   165.10 mm 270     
 U17        TCMT1103         TCMT1101         SSOP4                           64.77 mm   160.66 mm 270     
