@@ -12,7 +12,23 @@
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (NoModify)
-    (Display_Online_DRC_Results "FALSE"))
+    (Display_Online_DRC_Results "FALSE")
+    (ANNOTATE_Scope "1")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
   (Folder "Layout")
   (Folder "Outputs")
   (Folder "Referenced Projects")
@@ -30,94 +46,89 @@
       (FullPartName "BC847AL.Normal")
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "marco")
+  (MPSSessionName "user")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\22-301-1.dsn")
-      (Path "Design Resources" ".\22-301-1.dsn" "SCHEMATIC1")
-      (Select "Design Resources" ".\22-301-1.dsn" "SCHEMATIC1" "PAGE2"))
+      (Path "Design Resources" "d:\git\hw\pcb301\orcad\22-301-1.dsn")
+      (Path "Design Resources" "d:\git\hw\pcb301\orcad\22-301-1.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources" "d:\git\hw\pcb301\orcad\22-301-1.dsn"
+         "SCHEMATIC1" "CONNETTORI"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 340 0 911"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 349 0 911"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1375 24 929")
-        (Scroll "-61 -7")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1525 24 929")
+        (Scroll "-132 -4")
+        (Zoom "74")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB301\ORCAD\22-301-1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "UPS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1525 24 929")
+        (Scroll "-136 -7")
         (Zoom "104")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-301\ORCAD\22-301-1.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE2"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1375 24 929")
-        (Scroll "-43 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-301\ORCAD\22-301-1.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1375 24 929")
-        (Scroll "-61 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-301\ORCAD\22-301-1.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "SAFETY"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1375 24 929")
-        (Scroll "89 4")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-301\ORCAD\22-301-1.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "CONNETTORI"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1375 24 929")
-        (Scroll "-61 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-301\ORCAD\22-301-1.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "POWER_SUPPLY"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1375 24 929")
-        (Scroll "-61 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-301\ORCAD\22-301-1.DSN")
+      (Path "D:\GIT\HW\PCB301\ORCAD\22-301-1.DSN")
       (Schematic "SCHEMATIC1")
       (Page "uC"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1375 24 929")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1525 24 929")
+        (Scroll "-136 -7")
+        (Zoom "104")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-301\ORCAD\22-301-1.DSN")
+      (Path "D:\GIT\HW\PCB301\ORCAD\22-301-1.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "UPS")))
+      (Page "SAFETY"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1525 24 929")
+        (Scroll "-132 -4")
+        (Zoom "74")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB301\ORCAD\22-301-1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CONNETTORI"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1525 24 929")
+        (Scroll "-136 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB301\ORCAD\22-301-1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "GENERATOR_INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1525 24 929")
+        (Scroll "-118 0")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB301\ORCAD\22-301-1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "TELERUTTORE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1525 24 929")
+        (Scroll "-136 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB301\ORCAD\22-301-1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "BUS_HARDWARE_INPUT")))
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))
