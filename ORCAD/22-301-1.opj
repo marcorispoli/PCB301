@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[11/06/24]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[11/07/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -46,39 +46,55 @@
       (FullPartName "BC847AL.Normal")
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "user")
+  (MPSSessionName "marco")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\git\hw\pcb301\orcad\22-301-1.dsn")
-      (Path "Design Resources" "d:\git\hw\pcb301\orcad\22-301-1.dsn"
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-301\orcad\22-301-1.dsn")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-301\orcad\22-301-1.dsn"
          "SCHEMATIC1")
-      (Select "Design Resources" "d:\git\hw\pcb301\orcad\22-301-1.dsn"
-         "SCHEMATIC1" "TELERUTTORE"))
+      (Select "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-301\orcad\22-301-1.dsn"
+         "SCHEMATIC1" "CAN BUS"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 417 0 911"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 426 0 911"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1457 24 929")
-        (Scroll "-133 -8")
-        (Zoom "119")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1289 24 929")
+        (Scroll "-18 -7")
+        (Zoom "104")
         (Occurrence "/"))
-      (Path "D:\GIT\HW\PCB301\ORCAD\22-301-1.DSN")
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-301\ORCAD\22-301-1.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "SINOTTICO"))
+      (Page "BUS_HARDWARE_INPUT"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1457 24 929")
-        (Scroll "-102 -7")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1289 24 929")
+        (Scroll "-18 -7")
         (Zoom "104")
         (Occurrence "/"))
-      (Path "D:\GIT\HW\PCB301\ORCAD\22-301-1.DSN")
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-301\ORCAD\22-301-1.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "BUS_HARDWARE_INPUT")))
+      (Page "GENERATOR_INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1289 24 929")
+        (Scroll "-18 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-301\ORCAD\22-301-1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CAN BUS")))
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))
